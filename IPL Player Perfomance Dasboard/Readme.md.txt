@@ -1,113 +1,85 @@
-# 🏏 IPL All Seasons & Player Performance Dashboard
+🏏 IPL Performance Dashboard (2008–2025)
 
-An interactive Power BI dashboard that analyzes Indian Premier League (IPL) data across multiple seasons. This project provides comprehensive insights into player and team performance using advanced data visualization techniques.
+An interactive Power BI Dashboard that analyzes IPL batting and bowling performances from 2008 to 2025. The report provides detailed player insights with dynamic filters, team-wise analysis, season-wise trends, and interactive navigation using Bookmarks.
 
----
+🚀 Dashboard Features
+🏏 Batter Analysis
+Player-wise batting performance
+Runs by Year
+Runs by Team
+Highest Score Trend
+Fours & Sixes Analysis
+Orange Cap Winner
+Career Statistics
+Runs
+Innings
+Average
+Strike Rate
+Highest Score
+50s & 100s
+🎯 Bowler Analysis
+Player-wise bowling performance
+Wickets by Year
+Wickets by Team
+Overs Bowled Trend
+Purple Cap Winner
+Career Statistics
+Wickets
+Innings
+Economy Rate
+Best Bowling Figures
+4-Wicket Hauls
+5-Wicket Hauls
+Runs Conceded
+🔄 Interactive Navigation
 
-## 📌 Project Overview
+The dashboard uses Power BI Bookmarks and Buttons to create a seamless navigation experience.
 
-The IPL All Seasons & Player Performance Dashboard is designed to analyze historical IPL data spanning multiple seasons. The dashboard enables users to explore batting, bowling, and team statistics through dynamic visualizations and interactive filters.
+Features
+Switch between Batter Dashboard and Bowler Dashboard
+Single-report interactive navigation
+Smooth user experience without changing report pages
+Dynamic visuals that respond to slicer selections
+📈 Key Insights
+Analyze player performance from 2008–2025.
+Compare batting and bowling performances season by season.
+Identify players' peak seasons and career consistency.
+Discover team-wise contributions across IPL franchises.
+Evaluate batting through runs, strike rate, average, boundaries, and highest scores.
+Evaluate bowling through wickets, economy rate, overs bowled, and best bowling figures.
+Track Orange Cap and Purple Cap winners over the years.
+Explore player performance interactively using filters and bookmarks.
+🛠️ Power BI Skills Demonstrated
+Data Cleaning (Power Query)
+Data Modeling
+DAX Measures
+Calculated Columns
+Interactive Slicers
+Drill-through & Cross-filtering
+Bookmarks
+Buttons
+Conditional Formatting
+Custom Themes
+KPI Cards
+Bar Charts
+Line Charts
+Donut Charts
+Dynamic Player Profiles
+Responsive Dashboard Design
+💼 Business Value
 
-The project leverages Python for data collection and preprocessing, while Power BI is used to create insightful dashboards for sports analytics.
+This dashboard enables analysts, cricket enthusiasts, and decision-makers to:
 
----
-
-## 🎯 Objectives
-
-- Analyze player and team performances across IPL seasons.
-- Compare batting and bowling statistics over time.
-- Identify top-performing players and teams.
-- Discover trends and patterns in IPL history.
-
----
-
-## 🚀 Features
-
-✅ Interactive and dynamic Power BI dashboard
-
-✅ Season-wise, team-wise, and player-wise analysis
-
-✅ Analysis of **500+ players** across **10+ IPL seasons**
-
-✅ Comparison across all IPL franchises
-
-✅ Interactive filters and slicers for detailed exploration
-
----
-
-## 📊 Key Performance Indicators (KPIs)
-
-- Total Runs
-- Batting Average
-- Strike Rate
-- Total Wickets
-- Economy Rate
-- Bowling Average
-- Highest Individual Score
-- Most Sixes & Fours
-- Orange Cap & Purple Cap Leaders
-- Team Wins Analysis
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| Python | Data Collection & Cleaning |
-| Pandas | Data Manipulation |
-| BeautifulSoup | Web Scraping |
-| Power BI | Dashboard Development |
-| Power Query | Data Transformation |
-| DAX | KPI Calculations |
-
----
-
-## 📂 Dataset
-
-The dataset contains IPL historical statistics, including:
-
-- Match-level data
-- Batting statistics
-- Bowling statistics
-- Team performance records
-- Player career statistics
-
----
-
-## 📈 Dashboard Insights
-
-- Identified top run scorers and wicket-takers across IPL history.
-- Analyzed team performance trends across seasons.
-- Compared batting and bowling performances of players.
-- Evaluated franchise consistency and success rates.
-
----
-
-## 📸 Dashboard Preview
-
-### Home Dashboard
-
-![Home Dashboard](Images/home_dashboard.png)
-
-### Batting Analysis
-
-![Batting Analysis](Images/batting_analysis.png)
-
-### Bowling Analysis
-
-![Bowling Analysis](Images/bowling_analysis.png)
-
-### Team Analysis
-
-![Team Analysis](Images/team_analysis.png)
-
----
+Compare player performances across IPL seasons.
+Identify consistent and high-impact batters and bowlers.
+Analyze franchise-wise player contributions.
+Monitor long-term performance trends.
+Support data-driven cricket analysis using interactive visualizations.
 
 ## 📁 Repository Structure
 
 ```text
-IPL-All-Seasons-Dashboard/
+IPL Performance Dashboard/
 │
 ├── Data/
 │   └── IPL_Data.csv
