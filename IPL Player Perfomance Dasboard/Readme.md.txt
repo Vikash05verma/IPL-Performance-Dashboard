@@ -78,17 +78,27 @@ Support data-driven cricket analysis using interactive visualizations.
 
 ## 📁 Repository Structure
 
-```text
-IPL Performance Dashboard/
-│
-├── Data/
-│   └── IPL_Data.csv
-│
-├── Dashboard/
-│   └── IPL_Dashboard.pbix
-│
-├── dashboard_image/
-│   ├── Bowler_Page.png
-│   ├── Batter_page.png
-│ 
-├── README.md
+
+
+IPL Player Perfomance Dasboard/
+|
+|--Dashboard_image/
+     |--- Axer_Patel_Stats.png
+     |--- Jasprit_Bumrah_Stats.png
+     |--- Lasith_Malinga_Stats.png
+     |--- MS_dhoni_Stats.png
+     |--- Rohit_Sharma_Stats.png
+     |--- Virat_Kohli_Stats.png
+|
+|--Dataset/
+     |--- Batter_dataset.csv
+     |--- Bowler_dataset.csv
+|
+|--IPl_Dashboard.pbix
+|--Readme.md.txt
+|
+    
+
+
+
+
